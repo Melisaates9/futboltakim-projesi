@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score ödevi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    
+    <h1 class="teamName">Fener Bahçe</h1>
+    <button class="changename1 onclick="changeTeamName1()">İsim Deiğiştir</button>
+    <h2 class="score1">0</h2>
+    <button class="bal" onclick="scoresayısı()">+</button>
+    <button class="bal" onclick="scores()">-</button>
+    <button class="scoreGir" onclick="changeScore1()">Skoru gir</button>
+    <button class="bal" onclick="reset1()">
+      <i class="fa-solid fa-rotate-left"></i>
+    </button>
+   
+    <!--fener en iyisi-->
+    <h1 class="teamName2">Galatasaray</h1>
+    <button class="changename1" onclick="changeTeamName2()">İsim Deiğiştir</button>
+    <h2 class="score2">0</h2>
+    <button class="bal" onclick="artırma()">+</button>
+    <button class="bal" onclick="azaltma()">-</button>
+    <button class="scoreGir" onclick="changeScore2()">Skoru gir</button>
+    <button class="bal" onclick="reset2()">
+      <i class="fa-solid fa-rotate-left"></i>
+    </button>
+
+    <script src="java.js"></script>
+  </body>
+</html>
