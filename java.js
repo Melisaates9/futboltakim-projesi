@@ -50,7 +50,7 @@ function reset1() {
 }
 function reset2() {
   document.querySelector(".score2").innerHTML = 0;
-  scoreTeam = 0;
+  scoreTeam2 = 0;
 }
 
 function changeTeamName1() {
